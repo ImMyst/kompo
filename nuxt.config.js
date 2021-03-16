@@ -7,7 +7,7 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'kompo',
+    title: 'Kompo',
     htmlAttrs: {
       lang: 'en',
     },
@@ -36,9 +36,19 @@ export default {
     'nuxt-vite',
   ],
 
+  tailwindcss: {
+    jit: true,
+  },
+
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [],
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
-  build: {},
+  build: {
+    postcss: {
+      plugins: {
+        autoprefixer: {},
+      },
+    },
+  },
 }
