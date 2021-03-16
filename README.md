@@ -1,20 +1,16 @@
-# kompo
+<p>
+    <a href="https://titouan-galvani.fr" target="_blank">
+      <img alt="Kompo" width="300" src="https://i.ibb.co/7YLmKys/Component-1.png">
+    </a><br>
+    A Reusable Tailwind UI components website for Vue.
+</p>
 
-## Build Setup
+----
 
-```bash
-# install dependencies
-$ yarn install
+## 📝 Documentation
 
-# serve with hot reload at localhost:3000
-$ yarn dev
+Coming soon ...
 
-# build for production and launch server
-$ yarn build
-$ yarn start
+## ❤️ Credits
 
-# generate static project
-$ yarn generate
-```
-
-For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
+Made by ImMyst / Titouan GALVANI 🤘
