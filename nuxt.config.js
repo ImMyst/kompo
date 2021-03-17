@@ -7,7 +7,7 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'Kompo',
+    title: 'Kompot',
     htmlAttrs: {
       lang: 'en',
     },
