@@ -3,7 +3,8 @@
     <NuxtLink
       v-if="route"
       :to="route"
-      :class="light ? 'btn-light' : 'btn-primary'"
+      class="btn-primary"
+      :class="{ light: 'btn-light' }"
     >
       <img v-if="icon" class="mr-2" :src="icon" alt="Button icon" />
       <slot />
@@ -14,7 +15,13 @@
       :target="target"
       :class="light ? 'btn-light' : 'btn-primary'"
     >
-      <img v-if="icon" class="mr-2" :src="icon" alt="Button icon" />
+      <img
+        v-if="icon"
+        class="mr-2"
+        :src="icon"
+        width="100%"
+        alt="Button icon"
+      />
       <slot />
     </a>
   </div>

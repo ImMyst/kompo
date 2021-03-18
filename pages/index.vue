@@ -1,10 +1,19 @@
 <template>
-  <div class="text-center pt-48">
-    <h1 class="text-6xl md:text-8xl main-title">
-      Reusable <span class="text-[#23b6d4]">Tailwind</span> Components <br />
-      for <span class="text-[#3fb27f]">Vue</span>
+  <div class="pt-28">
+    <h1
+      class="text-5xl md:text-6xl lg:text-7xl main-title md:w-full lg:w-full xl:w-11/12"
+    >
+      Reusable and Responsive
+      <span class="text-[#23b6d4]">Tailwind</span> Components for
+      <span class="text-[#3fb27f]">Vue</span>
     </h1>
-    <div class="mt-16 flex justify-center">
+    <p
+      class="text-lg text-gray-600 font-medium mt-8 leading-relaxed md:text-xl md:leading-relaxed sm:w-4/6 md:w-5/6 lg:w-5/6"
+    >
+      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Optio eum quos
+      nostrum quaerat perferendis tempora ex iusto explicabo a minima non
+    </p>
+    <div class="mt-16 flex">
       <KOButton route="/">Documentation</KOButton>
       <KOButton
         destination="https://github.com/ImMyst/kompot"

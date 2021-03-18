@@ -12,5 +12,5 @@
 /* Components */
 
 .main-title {
-  @apply font-extrabold tracking-tighter;
+  @apply font-extrabold tracking-tight;
 }
