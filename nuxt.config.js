@@ -7,7 +7,7 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'kompo',
+    title: 'Kompot - Reusable Tailwind Components for Vue',
     htmlAttrs: {
       lang: 'en',
     },
@@ -16,7 +16,7 @@ export default {
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       { hid: 'description', name: 'description', content: '' },
     ],
-    link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
+    link: [{ rel: 'icon', type: 'image/x-icon', href: '/kompot-logo.svg' }],
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
@@ -31,14 +31,25 @@ export default {
   // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
   buildModules: [
     // https://go.nuxtjs.dev/eslint
+    '@nuxt/typescript-build',
     '@nuxtjs/eslint-module',
     '@nuxtjs/tailwindcss',
     'nuxt-vite',
   ],
 
+  tailwindcss: {
+    jit: true,
+  },
+
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [],
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
-  build: {},
+  build: {
+    postcss: {
+      plugins: {
+        autoprefixer: {},
+      },
+    },
+  },
 }
