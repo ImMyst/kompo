@@ -2,32 +2,15 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Fonts */
+/* Resets */
 
-@font-face {
-  font-family: 'Futura-Thin';
-  font-style: normal;
-  font-weight: 200;
-  font-display: swap;
-  src: url('~assets/fonts/Futura-Thin.ttf') format('truetype');
-}
-@font-face {
-  font-family: 'Futura';
-  font-style: normal;
-  font-weight: 400;
-  font-display: swap;
-  src: url('~assets/fonts/Futura-Book.ttf') format('truetype');
-}
-@font-face {
-  font-family: 'Futura-Bold';
-  font-style: normal;
-  font-weight: 700;
-  font-display: swap;
-  src: url('~assets/fonts/Futura-Bold.ttf') format('truetype');
+::selection {
+  background-color: #408ee7;
+  color: #fff;
 }
 
 /* Components */
 
-.title {
-  @apply font-title tracking-tighter;
+.main-title {
+  @apply font-extrabold tracking-tight;
 }
