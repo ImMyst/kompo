@@ -6,4 +6,3 @@
     <div class="hidden lg:block image"></div>
   </div>
 </template>
-
