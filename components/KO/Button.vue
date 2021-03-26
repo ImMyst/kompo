@@ -3,8 +3,7 @@
     <NuxtLink
       v-if="route"
       :to="route"
-      class="btn-primary"
-      :class="{ light: 'btn-light' }"
+      :class="[{ 'btn-primary': !light, 'btn-light': light }, dlc]"
     >
       <img v-if="icon" class="mr-2" :src="icon" alt="Button icon" />
       <slot />
@@ -13,7 +12,7 @@
       v-else
       :href="destination"
       :target="target"
-      :class="light ? 'btn-light' : 'btn-primary'"
+      :class="[{ 'btn-primary': !light, 'btn-light': light }, dlc]"
     >
       <img
         v-if="icon"
@@ -48,6 +47,10 @@ export default Vue.extend({
       default: false,
     },
     icon: {
+      type: String,
+      default: '',
+    },
+    dlc: {
       type: String,
       default: '',
     },
