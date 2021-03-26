@@ -9,8 +9,34 @@
   color: #fff;
 }
 
-/* Components */
+/* Utils */
 
 .main-title {
   @apply font-extrabold tracking-tight;
+}
+
+.back-gradient {
+  @apply bg-gradient-to-r from-[#EC5717] to-[#FA8C0B];
+}
+
+.text-gradient {
+  @apply bg-clip-text text-transparent bg-gradient-to-r from-[#EC5717] to-[#FA8C0B];
+}
+
+.underline-gradient {
+  position: relative;
+  box-sizing: border-box;
+  margin: auto;
+}
+
+.underline-gradient:hover::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: -3px;
+  left: 0;
+  z-index: 0;
+  margin-top: 23px;
+  background: linear-gradient(to right, #ec5717, #fa8c0b);
 }

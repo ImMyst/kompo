@@ -1,3 +1,3 @@
 <template>
-  <div class="h-4 w-full bg-gray-900" />
+  <div class="h-2 w-full back-gradient" />
 </template>
