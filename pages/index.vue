@@ -1,7 +1,7 @@
 <template>
-  <div class="pt-28 mb-auto">
+  <div class="pt-16 lg:pt-32 mb-auto">
     <h1
-      class="text-5xl md:text-6xl lg:text-7xl main-title md:w-full lg:w-full xl:w-11/12"
+      class="text-4xl md:text-6xl lg:text-7xl main-title md:w-full lg:w-full xl:w-11/12"
     >
       Reusable and Responsive
       <span class="text-[#23b6d4]">Tailwind</span> Components for
@@ -20,7 +20,7 @@
       originally as a side project to facilitate and accelerate the development
       of UI and website. Feel free to take a look and add more components 😉 !
     </p>
-    <div class="mt-16 flex">
+    <div class="mt-12 md:mt-16 flex">
       <KOButton route="/docs" dlc="mr-3 lg:mr-4">Documentation</KOButton>
       <KOButton
         destination="https://github.com/ImMyst/kompot"

@@ -16,7 +16,7 @@
     >
       <img
         v-if="icon"
-        class="mr-2"
+        class="mr-2 w-6"
         :src="icon"
         width="100%"
         alt="Button icon"
