@@ -4,7 +4,7 @@
   >
     <NuxtLink class="flex space-x-4" to="/">
       <img
-        src="static/kompot-logo.svg"
+        src="~/assets/icons/kompot-logo.svg"
         alt="Kompot"
         class="w-12 md:w-14 sm:-mt-1 md:-mt-2"
       />
